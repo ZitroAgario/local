@@ -1,0 +1,28 @@
+#cvs {
+background: linear-gradient(270deg, #ff0000, #ffb900, #fffd00, #7aff00, #61ffad, #0adb8a, #00fff7, #0075ff, #0008ff, #8000ff, #b800ff, #fc00ff, #ff00ce, #ff0046);
+background-size: 2800% 2800%;  
+-webkit-animation: DaAnimation 60s ease infinite;
+-moz-animation: DaAnimation 60s ease infinite;
+-o-animation: DaAnimation 60s ease infinite;
+animation: DaAnimation 60s ease infinite;
+}
+@-webkit-keyframes DaAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes DaAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes DaAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes DaAnimation { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+    }
