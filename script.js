@@ -14,5 +14,5 @@ c.fill();
 var idt2=c.getImageData(0,0,150,150);
 c.putImageData(idt,0,0)
 c.putImageData(idt2,cv.width/2-75, cv.height/2-75);
-dm.innerHTML+=cv.toDataURL();
+dm.qr('#txt').innerHTML+=cv.toDataURL();
 }
